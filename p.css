@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    
+}
+.bg-video{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover; /* Fill screen without distortion */
+    z-index: -100;
+}
+.b{
+    height: 60px;
+    width: 100%;
+    background:linear-gradient(rgba(0, 4, 255, 0.209),rgba(225, 255, 0, 0.152),rgba(153, 0, 255, 0.135));
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+
+}
+
+.n{
+    height: 60px;
+    width: 245px;
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    border-radius: 40px;
+    
+    background:linear-gradient(rgba(157, 0, 255, 0.178),rgba(85, 255, 0, 0.224),rgba(17, 217, 184, 0.218));
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+}
+.y img{
+    width: 56px;
+}
+.w img{
+    width: 76px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cr{
+    cursor: url(/images/Screenshot\ 2026-07-08\ 170841.png);
+}
+h1{
+    font-size:50px;
+    
+}
